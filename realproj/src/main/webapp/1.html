@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="sss.css">
+    
+	<style>
+       body {
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+    </style>
+</head>
+<body>
+	
+	<form action="Servlet1 " method="get">
+		
+	<div class="form">
+		
+		<div class="title-div ">
+			<h1>BLOOD DONATION</h1>
+			<p></p>
+			<p class="required">*Required</p>
+            <p class="personel">PERSONEL DETAILS</p>
+        </div>
+
+		<div class="name-div">
+			<div class="name">FULL NAME<span class="required">*</span></div>
+			<div class="input-div"><input type="text" name="name" placeholder="Your Name"></div>
+		</div>
+
+		<div class="age-div">
+			<div class="name">AGE<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="age" placeholder="Your Age"></div>
+		</div>
+
+		<div class="gender-div">
+			<div class="name">GENDER<span class="required">*</span></div>
+			<div class="int-div"><select name="gender">
+                <option>MALE</option>
+                <option>FEMALE</option>
+                <option>OTHER</option>
+            </select>                 
+            </div>
+		</div>
+		<div class="bloodgrp-div">
+			<div class="name">BLOOD GROUP<span class="required">*</span></div>
+			<div class="int-div"><select name="bldgrp">
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+				<option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>                 
+            </div>
+		</div>	
+		
+
+		<div class="dateofbirth-div">
+			<div class="name">DATE OF BIRTH<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="dob" placeholder="Your Date Of Birth"></div>
+		</div>
+
+		<p class="personel">CONTACT DETAILS</p>
+        
+
+		<div class="mobile-div">
+			<div class="name">MOBILE NUMBER<span class="required">*</span></div>
+			<div class="input-div"><input type="text" name="mobile" placeholder="Your mobile number"></div>
+		</div>
+
+		<div class="email-div">
+			<div class="name">EMAIL ID<span class="required">*</span></div>
+			<div class="input-div"><input type="text" name="email" placeholder="Your email-id"></div>
+		</div>
+		 <p class="personel">LOCATION</p>
+        
+
+		<div class="state-div">
+			<div class="name">STATE<span class="required">*</span></div>
+			<div class="input-div"><input type="text" name="state" placeholder="Your State"></div>
+		</div>
+
+		<div class="district-div">
+			<div class="name">DISTRICT<span class="required">*</span></div>
+			<div class="input-div"><input type="text" name="district" placeholder="Your District"></div>
+		</div>
+
+		
+		<div class="city-div">
+			<div class="name">CITY<span class="required">*</span></div>
+			<div class="input-div"><input type="text" name="city" placeholder="Your City"></div>
+		</div>
+
+		<div>
+			<input class="btn" type="submit" name="Submit" value="submit">
+		</div>
+     
+
+       </div>	
+	
+	
+
+	</form>
+
+</body>
+</html>
